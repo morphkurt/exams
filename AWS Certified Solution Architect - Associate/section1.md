@@ -105,5 +105,32 @@ S3 Glacier Deep Archive
 * lowest cost and retrieval time in hours 
 * ie 12 hours
 
+S3 charge
+
+* Storage
+* Request 
+* Storage Management Pricing
+* Data Transfer Pricing
+* Transfer Acceleration
+* Cross region replication pricing
+
+> ! Read through S3 (FAQ)[!https://aws.amazon.com/s3/faqs/]
+
+## S3 Security
+
+Encryption at rest
+
+* S3 managed keys - SSE-S3
+* AWS Key Management Service - Managed Keys - SSE-KMS
+* Server Side Encryption with Customer provided Keys - SSE-C
+* Client Side Encryption
+
+Using versioning with S3
+
+* Stores all versions of the object
+* Great backup tool
+* Once enabled cannot be disabled - Only suspended
+* Integrates with Lifecycle rules
+* Versioning's MFA Delete capability - which uses multi factor authentication.
 
 
